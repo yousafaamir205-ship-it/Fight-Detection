@@ -12,3 +12,4 @@ Framework: PyTorch
 
 
 CELL 1: The cell defines the key model settings. CUDA will be selected if a compatible GPU is available; otherwise, the model runs on the CPU.
+CELL 2:this is feature-extraction component. It processes video clips and returns a sequence of 128-dimensional feature vectors, one for each frame.(defining 3D-CNN)
